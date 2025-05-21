@@ -57,7 +57,7 @@ El quiz está basado en el videojuego **Overwatch**, y contiene **20 preguntas**
 
 ##  Autor
 
-Trabajo realizado por un Daniel Vázquez Pereira, estudiante de informática. Proyecto hecho con fines educativos.
+Trabajo realizado por Daniel Vázquez Pereira, estudiante de informática. Proyecto hecho con fines educativos.
 
 ---
 
