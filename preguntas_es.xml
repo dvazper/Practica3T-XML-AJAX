@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<test>
+    <question id="1">
+        <wording>¿Cuál es el nombre real de Tracer?</wording>
+        <choices>
+            <choice correct="yes">Lena Oxton</choice>
+            <choice correct="no">Angela Ziegler</choice>
+            <choice correct="no">Fareeha Amari</choice>
+            <choice correct="no">Amélie Lacroix</choice>
+        </choices>
+    </question>
+    <question id="2">
+        <wording>¿Qué rol cumple Reinhardt en el juego?</wording>
+        <choices>
+            <choice correct="yes">Tanque</choice>
+            <choice correct="no">Apoyo</choice>
+            <choice correct="no">Daño</choice>
+            <choice correct="no">Control</choice>
+        </choices>
+    </question>
+    <question id="3">
+        <wording>¿Qué héroe utiliza un arco como arma principal?</wording>
+        <choices>
+            <choice correct="yes">Hanzo</choice>
+            <choice correct="no">Genji</choice>
+            <choice correct="no">Reaper</choice>
+            <choice correct="no">Sojourn</choice>
+        </choices>
+    </question>
+    <question id="4">
+        <wording>¿Cuál fue el nuevo héroe de lanzamiento en Overwatch 2?</wording>
+        <choices>
+            <choice correct="yes">Sojourn</choice>
+            <choice correct="no">Kiriko</choice>
+            <choice correct="no">Ramattra</choice>
+            <choice correct="no">Echo</choice>
+        </choices>
+    </question>
+    <question id="5">
+        <wording>¿Qué personaje puede teletransportarse con un dispositivo?</wording>
+        <choices>
+            <choice correct="no">Tracer</choice>
+            <choice correct="no">Sombra</choice>
+            <choice correct="yes">Symmetra</choice>
+            <choice correct="no">Wrecking Ball</choice>
+        </choices>
+    </question>
+    <question id="6">
+        <wording>¿Cuál de estos héroes es un soporte?</wording>
+        <choices>
+            <choice correct="yes">Zenyatta</choice>
+            <choice correct="no">Junkrat</choice>
+            <choice correct="no">D.Va</choice>
+            <choice correct="no">Sigma</choice>
+        </choices>
+    </question>
+    <question id="7">
+        <wording>¿Qué habilidad usa Genji para reflejar proyectiles?</wording>
+        <choices>
+            <choice correct="yes">Deflectar</choice>
+            <choice correct="no">Doble salto</choice>
+            <choice correct="no">Corte veloz</choice>
+            <choice correct="no">Dash</choice>
+        </choices>
+    </question>
+    <question id="8">
+        <wording>¿Qué héroe puede colocar torretas?</wording>
+        <choices>
+            <choice correct="yes">Torbjörn</choice>
+            <choice correct="no">Reinhardt</choice>
+            <choice correct="no">Lucio</choice>
+            <choice correct="no">Pharah</choice>
+        </choices>
+    </question>
+    <question id="9">
+        <wording>¿Qué personaje fue una IA antes de tener cuerpo físico?</wording>
+        <choices>
+            <choice correct="no">Ramattra</choice>
+            <choice correct="no">Zenyatta</choice>
+            <choice correct="yes">Echo</choice>
+            <choice correct="no">Bastion</choice>
+        </choices>
+    </question>
+    <question id="10">
+        <wording>¿Cuál es la habilidad definitiva de Mercy?</wording>
+        <choices>
+            <choice correct="yes">Valkiria</choice>
+            <choice correct="no">Resurrección</choice>
+            <choice correct="no">Sanación en área</choice>
+            <choice correct="no">Campo de inmortalidad</choice>
+        </choices>
+    </question>
+    <question id="11">
+        <wording>¿Qué personaje usa un martillo como arma principal?</wording>
+        <choices>
+            <choice correct="yes">Reinhardt</choice>
+            <choice correct="no">Winston</choice>
+            <choice correct="no">Roadhog</choice>
+            <choice correct="no">Zarya</choice>
+        </choices>
+    </question>
+    <question id="12">
+        <wording>¿Quién es el líder de Null Sector?</wording>
+        <choices>
+            <choice correct="yes">Ramattra</choice>
+            <choice correct="no">Sigma</choice>
+            <choice correct="no">Moira</choice>
+            <choice correct="no">Zenyatta</choice>
+        </choices>
+    </question>
+    <question id="13">
+        <wording>¿Qué héroe es conocido por su frase 'It's high noon'?</wording>
+        <choices>
+            <choice correct="yes">Cassidy</choice>
+            <choice correct="no">Soldado: 76</choice>
+            <choice correct="no">Genji</choice>
+            <choice correct="no">Tracer</choice>
+        </choices>
+    </question>
+    <question id="14">
+        <wording>¿Qué nuevo modo de juego se introdujo en Overwatch 2?</wording>
+        <choices>
+            <choice correct="yes">Avance</choice>
+            <choice correct="no">Captura de bandera</choice>
+            <choice correct="no">Deathmatch</choice>
+            <choice correct="no">Escolta inversa</choice>
+        </choices>
+    </question>
+    <question id="15">
+        <wording>¿Qué personaje puede hackear a sus enemigos?</wording>
+        <choices>
+            <choice correct="yes">Sombra</choice>
+            <choice correct="no">Echo</choice>
+            <choice correct="no">Widowmaker</choice>
+            <choice correct="no">Kiriko</choice>
+        </choices>
+    </question>
+    <question id="16">
+        <wording>¿Qué héroe tiene una habilidad para lanzar kunais?</wording>
+        <choices>
+            <choice correct="yes">Kiriko</choice>
+            <choice correct="no">Genji</choice>
+            <choice correct="no">Hanzo</choice>
+            <choice correct="no">Zenyatta</choice>
+        </choices>
+    </question>
+    <question id="17">
+        <wording>¿Cuál de estos mapas está en Overwatch 2?</wording>
+        <choices>
+            <choice correct="yes">New Queen Street</choice>
+            <choice correct="no">Hanamura</choice>
+            <choice correct="no">Lijiang Tower</choice>
+            <choice correct="no">Nepal</choice>
+        </choices>
+    </question>
+    <question id="18">
+        <wording>¿Qué personaje tiene una barrera que sigue su dirección de movimiento?</wording>
+        <choices>
+            <choice correct="no">Sigma</choice>
+            <choice correct="yes">Ramattra</choice>
+            <choice correct="no">Reinhardt</choice>
+            <choice correct="no">Winston</choice>
+        </choices>
+    </question>
+    <question id="19">
+        <wording>¿Cuál es la nacionalidad de Sigma?</wording>
+        <choices>
+            <choice correct="yes">Holandesa</choice>
+            <choice correct="no">Alemana</choice>
+            <choice correct="no">Australiana</choice>
+            <choice correct="no">Canadiense</choice>
+        </choices>
+    </question>
+    <question id="20">
+        <wording>¿Qué héroe tiene como ulti una bomba gravitacional?</wording>
+        <choices>
+            <choice correct="yes">Zarya</choice>
+            <choice correct="no">Reinhardt</choice>
+            <choice correct="no">Wrecking Ball</choice>
+            <choice correct="no">Orisa</choice>
+        </choices>
+    </question>
+</test>

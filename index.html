@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Quiz Interactivo</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="language-selector">
+    <select id="language">
+      <option value="es">Español</option>
+      <option value="en">English</option>
+    </select>
+  </div>
+  <div class="container">
+    <h2 id="question-text">Pulsa en "Comenzar" para empezar</h2>
+<p style="text-align: center; margin-top: 0.5rem;">Quiz de Overwatch de 20 Preguntas<br>Hecho por Daniel</p>
+    <div id="choices"></div>
+    <div class="controls">
+      <button id="startBtn" onclick="loadXML()">Comenzar test</button>
+      <button onclick="nextQuestion()" style="display: none;" id="nextBtn">Siguiente</button>
+    </div>
+    <div class="score">Puntuación: <span id="score">0</span></div>
+    <div class="timer">Tiempo: <span id="timer">0</span> segundos</div>
+  </div>
+
+  <script>
+    let questions;
+    let current = 0;
+    let score = 0;
+    let startTime = Date.now();
+    let timerInterval;
+
+    function loadXML() {
+      clearInterval(timerInterval);
+      document.getElementById("score").textContent = 0;
+      document.getElementById("timer").textContent = 0;
+      current = 0;
+      score = 0;
+      startTime = Date.now();
+
+      document.getElementById("startBtn").style.display = "none";
+      document.getElementById("nextBtn").style.display = "inline-block";
+
+      const lang = document.getElementById("language").value;
+      const file = lang === 'en' ? 'preguntas_en.xml' : 'preguntas_es.xml';
+
+      const xhttp = new XMLHttpRequest();
+      xhttp.onreadystatechange = function() {
+        if (this.readyState === 4 && this.status === 200) {
+          const tempQuestions = Array.from(this.responseXML.getElementsByTagName("question"));
+          questions = tempQuestions.sort(() => Math.random() - 0.5);
+          startTimer();
+          showQuestion();
+        }
+      };
+      xhttp.open("GET", file, true);
+      xhttp.send();
+    }
+
+    function showQuestion() {
+      if (current >= questions.length) {
+        document.getElementById("question-text").textContent = "Fin del quiz";
+        document.getElementById("choices").innerHTML = "";
+        document.getElementById("nextBtn").style.display = "none";
+        clearInterval(timerInterval);
+        return;
+      }
+      const question = questions[current];
+      const wording = question.getElementsByTagName("wording")[0].textContent;
+      const choices = Array.from(question.getElementsByTagName("choice"));
+      const shuffledChoices = choices.sort(() => Math.random() - 0.5);
+
+      document.getElementById("question-text").textContent = wording;
+      const choicesDiv = document.getElementById("choices");
+      choicesDiv.innerHTML = "";
+
+      for (let i = 0; i < shuffledChoices.length; i++) {
+        const div = document.createElement("div");
+        div.className = "choice";
+        div.textContent = shuffledChoices[i].textContent;
+        div.onclick = () => {
+          const allChoices = choicesDiv.querySelectorAll(".choice");
+          allChoices.forEach((el, index) => {
+            const isCorrect = shuffledChoices[index].getAttribute("correct") === "yes";
+            el.style.backgroundColor = isCorrect ? "#c2f0c2" : "#ec5353";
+          });
+
+          if (shuffledChoices[i].getAttribute("correct") === "yes") {
+            score++;
+            document.getElementById("score").textContent = score;
+          }
+
+          setTimeout(() => {
+            nextQuestion();
+          }, 1000);
+        };
+        choicesDiv.appendChild(div);
+      }
+    }
+
+    function nextQuestion() {
+      current++;
+      showQuestion();
+    }
+
+    function startTimer() {
+      timerInterval = setInterval(() => {
+        const elapsed = Math.floor((Date.now() - startTime) / 1000);
+        document.getElementById("timer").textContent = elapsed;
+      }, 1000);
+    }
+
+    window.onload = () => {
+      document.getElementById("question-text").textContent = "Pulsa en \"Comenzar\" para empezar";
+    };
+  </script>
+</body>
+</html>

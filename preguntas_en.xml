@@ -1,0 +1,183 @@
+<?xml version='1.0' encoding='utf-8'?>
+<test>
+    <question id="1">
+        <wording>What is Tracer's real name?</wording>
+        <choices>
+            <choice correct="yes">Lena Oxton</choice>
+            <choice correct="no">Angela Ziegler</choice>
+            <choice correct="no">Fareeha Amari</choice>
+            <choice correct="no">Amélie Lacroix</choice>
+        </choices>
+    </question>
+    <question id="2">
+        <wording>What role does Reinhardt play in the game?</wording>
+        <choices>
+            <choice correct="yes">Tank</choice>
+            <choice correct="no">Support</choice>
+            <choice correct="no">Damage</choice>
+            <choice correct="no">Control</choice>
+        </choices>
+    </question>
+    <question id="3">
+        <wording>Which hero uses a bow as their main weapon?</wording>
+        <choices>
+            <choice correct="yes">Hanzo</choice>
+            <choice correct="no">Genji</choice>
+            <choice correct="no">Reaper</choice>
+            <choice correct="no">Sojourn</choice>
+        </choices>
+    </question>
+    <question id="4">
+        <wording>Who was the launch hero in Overwatch 2?</wording>
+        <choices>
+            <choice correct="yes">Sojourn</choice>
+            <choice correct="no">Kiriko</choice>
+            <choice correct="no">Ramattra</choice>
+            <choice correct="no">Echo</choice>
+        </choices>
+    </question>
+    <question id="5">
+        <wording>Which character can teleport using a device?</wording>
+        <choices>
+            <choice correct="yes">Tracer</choice>
+            <choice correct="no">Sombra</choice>
+            <choice correct="no">Symmetra</choice>
+            <choice correct="no">Wrecking Ball</choice>
+        </choices>
+    </question>
+    <question id="6">
+        <wording>Which of these heroes is a support?</wording>
+        <choices>
+            <choice correct="yes">Zenyatta</choice>
+            <choice correct="no">Junkrat</choice>
+            <choice correct="no">D.Va</choice>
+            <choice correct="no">Sigma</choice>
+        </choices>
+    </question>
+    <question id="7">
+        <wording>What ability does Genji use to deflect projectiles?</wording>
+        <choices>
+            <choice correct="yes">Deflect</choice>
+            <choice correct="no">Double Jump</choice>
+            <choice correct="no">Swift Strike</choice>
+            <choice correct="no">Dash</choice>
+        </choices>
+    </question>
+    <question id="8">
+        <wording>Which hero can place turrets?</wording>
+        <choices>
+            <choice correct="yes">Torbjörn</choice>
+            <choice correct="no">Reinhardt</choice>
+            <choice correct="no">Lucio</choice>
+            <choice correct="no">Pharah</choice>
+        </choices>
+    </question>
+    <question id="9">
+        <wording>Which character was an AI before gaining a physical body?</wording>
+        <choices>
+            <choice correct="yes">Ramattra</choice>
+            <choice correct="no">Zenyatta</choice>
+            <choice correct="no">Echo</choice>
+            <choice correct="no">Bastion</choice>
+        </choices>
+    </question>
+    <question id="10">
+        <wording>What is Mercy’s ultimate ability?</wording>
+        <choices>
+            <choice correct="yes">Valkyrie</choice>
+            <choice correct="no">Resurrection</choice>
+            <choice correct="no">Area Heal</choice>
+            <choice correct="no">Immortality Field</choice>
+        </choices>
+    </question>
+    <question id="11">
+        <wording>Which character uses a hammer as their main weapon?</wording>
+        <choices>
+            <choice correct="yes">Reinhardt</choice>
+            <choice correct="no">Winston</choice>
+            <choice correct="no">Roadhog</choice>
+            <choice correct="no">Zarya</choice>
+        </choices>
+    </question>
+    <question id="12">
+        <wording>Who is the leader of Null Sector?</wording>
+        <choices>
+            <choice correct="yes">Ramattra</choice>
+            <choice correct="no">Sigma</choice>
+            <choice correct="no">Moira</choice>
+            <choice correct="no">Zenyatta</choice>
+        </choices>
+    </question>
+    <question id="13">
+        <wording>Which hero is known for the phrase 'It’s high noon'?</wording>
+        <choices>
+            <choice correct="yes">Cassidy</choice>
+            <choice correct="no">Soldier: 76</choice>
+            <choice correct="no">Genji</choice>
+            <choice correct="no">Tracer</choice>
+        </choices>
+    </question>
+    <question id="14">
+        <wording>What new game mode was introduced in Overwatch 2?</wording>
+        <choices>
+            <choice correct="yes">Push</choice>
+            <choice correct="no">Capture the Flag</choice>
+            <choice correct="no">Deathmatch</choice>
+            <choice correct="no">Reverse Escort</choice>
+        </choices>
+    </question>
+    <question id="15">
+        <wording>Which character can hack enemies?</wording>
+        <choices>
+            <choice correct="yes">Sombra</choice>
+            <choice correct="no">Echo</choice>
+            <choice correct="no">Widowmaker</choice>
+            <choice correct="no">Kiriko</choice>
+        </choices>
+    </question>
+    <question id="16">
+        <wording>Which hero has an ability to throw kunai?</wording>
+        <choices>
+            <choice correct="yes">Kiriko</choice>
+            <choice correct="no">Genji</choice>
+            <choice correct="no">Hanzo</choice>
+            <choice correct="no">Zenyatta</choice>
+        </choices>
+    </question>
+    <question id="17">
+        <wording>Which of these maps is in Overwatch 2?</wording>
+        <choices>
+            <choice correct="yes">New Queen Street</choice>
+            <choice correct="no">Hanamura</choice>
+            <choice correct="no">Lijiang Tower</choice>
+            <choice correct="no">Nepal</choice>
+        </choices>
+    </question>
+    <question id="18">
+        <wording>Which character has a barrier that follows their movement?</wording>
+        <choices>
+            <choice correct="yes">Sigma</choice>
+            <choice correct="no">Ramattra</choice>
+            <choice correct="no">Reinhardt</choice>
+            <choice correct="no">Winston</choice>
+        </choices>
+    </question>
+    <question id="19">
+        <wording>What is Sigma’s nationality?</wording>
+        <choices>
+            <choice correct="yes">Dutch</choice>
+            <choice correct="no">German</choice>
+            <choice correct="no">Australian</choice>
+            <choice correct="no">Canadian</choice>
+        </choices>
+    </question>
+    <question id="20">
+        <wording>Which hero has a gravity bomb as their ultimate?</wording>
+        <choices>
+            <choice correct="yes">Zarya</choice>
+            <choice correct="no">Reinhardt</choice>
+            <choice correct="no">Wrecking Ball</choice>
+            <choice correct="no">Orisa</choice>
+        </choices>
+    </question>
+</test>
